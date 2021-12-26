@@ -1,0 +1,161 @@
+        <div class="University">
+          <div class="UniName">
+            Singapore Institute of Technology
+            <div><button id="SIT" onclick="ViewCourses(this.id)">View/Hide Courses</button></div>
+           </div>
+          <div class="UniCourses" id="sit" style="display: none;">
+            <div class="noselection">Please select a discipline to begin.</div>
+            <input class="courseCB" id="SITCourse1" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course BIZ" id="sitcourse1" onclick="SITCourse1.click()">
+              <span>Accountancy</span>
+            </div>
+            <input class="courseCB" id="SITCourse2" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse2" onclick="SITCourse2.click()">
+              <span>Aerospace Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse3" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course AHSS BIZ" id="sitcourse3" onclick="SITCourse3.click()">
+              <span>Air Transport Management</span>
+            </div>
+            <input class="courseCB" id="SITCourse4" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse4" onclick="SITCourse4.click()">
+              <span>Aircraft Systems Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse5" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse5" onclick="SITCourse5.click()">
+              <span>Chemical Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse6" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse6" onclick="SITCourse6.click()">
+              <span>Civil Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse7" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG COM" id="sitcourse7" onclick="SITCourse7.click()">
+              <span>Computer Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse8" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM" id="sitcourse8" onclick="SITCourse8.click()">
+              <span>Computer Science in Interactive Media and Game Development</span>
+            </div>
+            <input class="courseCB" id="SITCourse9" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM" id="sitcourse9" onclick="SITCourse9.click()">
+              <span>Computer Science in Real-Time Interactive Simulation</span>
+            </div>
+            <input class="courseCB" id="SITCourse10" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM" id="sitcourse10" onclick="SITCourse10.click()">
+              <span>Computing Science</span>
+            </div>
+            <input class="courseCB" id="SITCourse11" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course SCI MDN" id="sitcourse11" onclick="SITCourse11.click()">
+              <span>Diagnostic Radiography</span>
+            </div>
+            <input class="courseCB" id="SITCourse12" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course SCI MDN" id="sitcourse12" onclick="SITCourse12.click()">
+              <span>Dietetics and Nutrition</span>
+            </div>
+            <input class="courseCB" id="SITCourse13" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ADP" id="sitcourse13" onclick="SITCourse13.click()">
+              <span>Digital Art and Animation</span>
+            </div>
+            <input class="courseCB" id="SITCourse14" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course AHSS" id="sitcourse14" onclick="SITCourse14.click()">
+              <span>Digital Communications and Integrated Media</span>
+            </div>
+            <input class="courseCB" id="SITCourse15" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse15" onclick="SITCourse15.click()">
+              <span>Electrical Power Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse16" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse16" onclick="SITCourse16.click()">
+              <span>Electronics and Data Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse17" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course BIZ" id="sitcourse17" onclick="SITCourse17.click()">
+              <span>Food Business Management(Baking and Pastry Arts)</span>
+            </div>
+            <input class="courseCB" id="SITCourse18" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course BIZ" id="sitcourse18" onclick="SITCourse18.click()">
+              <span>Food Business Management(Culinary Arts)</span>
+            </div>
+            <input class="courseCB" id="SITCourse19" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course SCI" id="sitcourse19" onclick="SITCourse19.click()">
+              <span>Food Technology</span>
+            </div>
+            <input class="courseCB" id="SITCourse20" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course BIZ" id="sitcourse20" onclick="SITCourse20.click()">
+              <span>Hospitality Business</span>
+            </div>
+            <input class="courseCB" id="SITCourse21" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM" id="sitcourse21" onclick="SITCourse21.click()">
+              <span>Information and Communications Technology(Information Security)</span>
+            </div>
+            <input class="courseCB" id="SITCourse22" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM" id="sitcourse22" onclick="SITCourse22.click()">
+              <span>Information and Communications Technology(Computer Science)</span>
+            </div>
+            <input class="courseCB" id="SITCourse23" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse23" onclick="SITCourse23.click()">
+              <span>Marine Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse24" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse24" onclick="SITCourse24.click()">
+              <span>Mechanical Design and Manufacturing Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse25" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse25" onclick="SITCourse25.click()">
+              <span>Mechanical Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse26" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse26" onclick="SITCourse26.click()">
+              <span>Machatronics Systems</span>
+            </div>
+            <input class="courseCB" id="SITCourse27" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse27" onclick="SITCourse27.click()">
+              <span>Naval Architecture</span>
+            </div>
+            <input class="courseCB" id="SITCourse28" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course MDN" id="sitcourse28" onclick="SITCourse28.click()">
+              <span>Nursing</span>
+            </div>
+            <input class="courseCB" id="SITCourse29" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course MDN" id="sitcourse29" onclick="SITCourse29.click()">
+              <span>Occupation Therapy</span>
+            </div>
+            <input class="courseCB" id="SITCourse30" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse30" onclick="SITCourse30.click()">
+              <span>Offshore Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse31" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse31" onclick="SITCourse31.click()">
+              <span>Pharmaceutical Engineering</span>
+            </div>
+            <input class="courseCB" id="SITCourse32" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course MDN" id="sitcourse32" onclick="SITCourse32.click()">
+              <span>Physiotherapy</span>
+            </div>
+            <input class="courseCB" id="SITCourse33" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course MDN" id="sitcourse33" onclick="SITCourse33.click()">
+              <span>Radiation Therapy</span>
+            </div>
+            <input class="courseCB" id="SITCourse34" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse34" onclick="SITCourse34.click()">
+              <span>Robotics Systems</span>
+            </div>
+            <input class="courseCB" id="SITCourse35" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course MDN" id="sitcourse35" onclick="SITCourse35.click()">
+              <span>Speech and Language Therapy</span>
+            </div>
+            <input class="courseCB" id="SITCourse36" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse36" onclick="SITCourse36.click()">
+              <span>Sustainable Infrastructure Engineering(Building Services)</span>
+            </div>
+            <input class="courseCB" id="SITCourse37" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG" id="sitcourse37" onclick="SITCourse37.click()">
+              <span>Sustainable Infrastructure Engineering(Land)</span>
+            </div>
+            <input class="courseCB" id="SITCourse38" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ADP" id="sitcourse38" onclick="SITCourse38.click()">
+              <span>User Experience and Game Design</span>
+            </div>
+         </div>
+        </div>
