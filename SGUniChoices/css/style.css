@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("nus.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+h1{
+  margin:0;
+}
+
+.header{
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+}
+
+.logo{
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 30px;
+  padding: 8px 0;
+  display:inline-block  
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+.links{
+  position: relative;
+  float: right;
+  font-size: 25px;
+  height: 50px;
+  top: 20%;
+  vertical-align: middle;
+}
+
+.panel{
+  display: flex;
+  text-align: left;
+  width: auto;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #adcefd;
+}
+
+.threecountries{
+  display:grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.options{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#majors{
+  flex-grow: 1;
+}
+
+.item{
+  width: auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+
+#UK{
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url("gb.svg");  
+}
+
+#US{
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),url("us.svg");
+}
+
+#SG{
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url("sg.svg");
+}
+
+.noselection{
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 40px;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  border:5px solid rgb(0, 0, 0);
+}
+
+.CountryUnis{
+  display:none;
+}
+
+.University{
+  background-image: linear-gradient(rgb(238, 227, 133), rgb(253, 253, 253));
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+
+}
+
+.UniName{
+  display: table-cell;
+  width: 15%;
+  text-align: center;
+  word-wrap:break-word;
+}
+
+.UniCourses{
+  width: 85%;
+  grid-template-columns: auto auto auto auto auto auto;
+  text-align: center;
+  display: none;
+}
+
+.course{
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  background-color: grey;
+  display: none;
+}
+
+.courseCB{
+  display: none;
+}
+
+#qualifications{
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.qual{
+  width:200px;
+  height:50px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#yourSelection{
+  background-image: linear-gradient(rgb(238, 227, 133), rgb(253, 253, 253));
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#tableHead{
+  background-color: red;
+}
+
+td:nth-child(1) {
+  width: 100px;
+}
+
+td:nth-child(2) {
+  width: 100px;
+}
+
+.CourseLink{
+  color:rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+td:nth-child(3) {
+  width: 800px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <title>SGUniChoice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="loadCourses()">
+  <div class="header">
+    <div class="logo">
+      <a href="home.html">SG UNIVERSITY CHOICES</a>
+    </div>
+    <div class="links">
+      <a href="yourchoices.html">YOUR CHOICES</a>
+    </div>
+  </div>
+  <div id="qualifications">
+    <button class="qual" id="Poly" onclick="selectQual(this.id)">Polytechnic or equivalent institutions</button>
+    <button class="qual" id="ALevel" onclick="selectQual(this.id)">Singapore-Cambridge GCE ‘A’ Level</button>
+    <button class="qual" id="IB" onclick="selectQual(this.id)">International Baccalaureate(IB) Diploma</button>
+    <button class="qual" id="NUSH" onclick="selectQual(this.id)">NUS High School Diploma</button>
+  </div>
+  <div id="yourSelection">
+    <div>
+    <table id="TableOfSelection">
+      <tr id="tableHead">
+        <td>School</td>
+        <td>Course</td>
+        <td>Course-specific Requirements</td>
+      </tr>
+    </table>
+    </div>
+  </div>
+
+
+  <script src="js/generate.js?nocache=1"></script>
+  <script src="js/SGReq.json?nocache=1"></script>
+  <script src="js/UKReq.json?nocache=1"></script>
+  <script src="js/USReq.json?nocache=1"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+        <div class="University">
+          <div class="UniName">
+            Singapore University of Technology and Design
+            <div><button id="SUTD" onclick="ViewCourses(this.id)">View/Hide Courses</button></div>
+           </div>
+          <div class="UniCourses" id="sutd" style="display: none;">
+            <div class="noselection">Please select a discipline to begin.</div>
+            <input class="courseCB" id="SUTDCourse1" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ADP" id="sutdcourse1" onclick="SUTDCourse1.click()">
+              <span>Architecture and Sustainable Design</span>
+            </div>
+            <input class="courseCB" id="SUTDCourse2" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM ADP" id="sutdcourse2" onclick="SUTDCourse2.click()">
+              <span>Computer Science and Design</span>
+            </div>
+            <input class="courseCB" id="SUTDCourse3" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM ADP" id="sutdcourse3" onclick="SUTDCourse3.click()">
+              <span>Design and Artificial Intelligence</span>
+            </div>
+            <input class="courseCB" id="SUTDCourse4" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG ADP" id="sutdcourse4" onclick="SUTDCourse4.click()">
+              <span>Engineering Product Development</span>
+            </div>
+            <input class="courseCB" id="SUTDCourse5" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course ENG ADP" id="sutdcourse5" onclick="SUTDCourse5.click()">
+              <span>Engineering Systems and Design</span>
+            </div>
+         </div>
+        </div>

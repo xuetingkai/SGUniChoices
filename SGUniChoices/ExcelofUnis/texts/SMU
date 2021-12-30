@@ -1,0 +1,45 @@
+        <div class="University">
+          <div class="UniName">
+            Singapore Management University
+            <div><button id="SMU" onclick="ViewCourses(this.id)">View/Hide Courses</button></div>
+           </div>
+          <div class="UniCourses" id="smu" style="display: none;">
+            <div class="noselection">Please select a discipline to begin.</div>
+            <input class="courseCB" id="SMUCourse1" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course BIZ" id="smucourse1" onclick="SMUCourse1.click()">
+              <span>Accountancy</span>
+            </div>
+            <input class="courseCB" id="SMUCourse2" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course BIZ" id="smucourse2" onclick="SMUCourse2.click()">
+              <span>Business Management</span>
+            </div>
+            <input class="courseCB" id="SMUCourse3" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course AHSS" id="smucourse3" onclick="SMUCourse3.click()">
+              <span>Economics </span>
+            </div>
+            <input class="courseCB" id="SMUCourse4" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course LAW" id="smucourse4" onclick="SMUCourse4.click()">
+              <span>Law</span>
+            </div>
+            <input class="courseCB" id="SMUCourse5" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM" id="smucourse5" onclick="SMUCourse5.click()">
+              <span>Computer Science</span>
+            </div>
+            <input class="courseCB" id="SMUCourse6" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM LAW" id="smucourse6" onclick="SMUCourse6.click()">
+              <span>Computing & Law </span>
+            </div>
+            <input class="courseCB" id="SMUCourse7" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM" id="smucourse7" onclick="SMUCourse7.click()">
+              <span>Information Systems</span>
+            </div>
+            <input class="courseCB" id="SMUCourse8" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course COM" id="smucourse8" onclick="SMUCourse8.click()">
+              <span>Software Engineering</span>
+            </div>
+            <input class="courseCB" id="SMUCourse9" type="checkbox" style="pointer-events:none" onclick="SelectCourse(this.id)">
+            <div class="course AHSS" id="smucourse9" onclick="SMUCourse9.click()">
+              <span>Social Science</span>
+            </div>
+         </div>
+        </div>
